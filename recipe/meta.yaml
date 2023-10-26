@@ -1,5 +1,5 @@
 {% set name = "BatAnalysis" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/BatAnalysis-{{ version }}.tar.gz
-  sha256: f76292600b138abedee50736dacfdc85d767c7854262aa8e987f65b8bb4e0365
+  sha256: 5effcec9b789e703b82d39201af4cd5584387a54a161fb9cade174a3a89df1c8
 
 build:
   noarch: python
